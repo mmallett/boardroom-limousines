@@ -1,5 +1,9 @@
 .full-page-panel {
 	text-align:center;
+	
+	position:relative;
+	left:0;
+	top:0;
 }
 
 /*
@@ -27,6 +31,17 @@
 
 .clickable{
 	cursor: pointer;
+}
+
+.btn-next-panel{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100px;
+}
+.btn-next-panel a{
+	background-image: url(../img/btn-next-panel.png);
+	padding: 10px 13px;
 }
 
 /*///////////////////////////////////////////////////
