@@ -2,12 +2,77 @@
 	text-align:center;
 }
 
+/*
+ adding the gotham htf fonts
+*/
+@font-face{
+	font-family: gotham-htf;
+	src: url(../fonts/GothamHTF-Book.ttf);
+}
+
+@font-face{
+	font-family: gotham-htf;
+	src: url(../fonts/GothamHTF-Bold.otf);
+	font-weight: bold;
+}
+
+.gotham-bold{
+	font-family: gotham-htf;
+	font-weight: bold;
+}
+
+.gotham{
+	font-family: gotham-htf;
+}
+
+.clickable{
+	cursor: pointer;
+}
+
+/*///////////////////////////////////////////////////
+ PANEL 1
+*/
 #panel1{
 	background-image: url(../img/background1.png);
-	background-size: 100% 100%;
+	background-size: cover;
+	border-bottom: 5px #898989 solid;
 }
+
+.panel1-shading{
+	background-image: url(../img/background1-shading.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+
+#panel1 h1{
+	font-family: gotham-htf;
+	color: white;
+}
+
+#panel1 h1 span{
+	color: #f7df98;
+}
+
+.btn-contact{
+	color: #617101;
+	font-family: gotham-htf;
+	font-size: 2em;
+
+	padding: 15px 50px;
+
+	background-image: url(../img/btn-contact.png);
+}
+.btn-contact:hover{
+	text-decoration: none;
+	color: #617101;
+}
+
+/*//////////////////////////////////////////////////
+ PANEL 2
+*/
 
 #panel3{
 	background-image: url(../img/background2.png);
-	background-size: 100% 100%;
+	background-size: cover;
 }
