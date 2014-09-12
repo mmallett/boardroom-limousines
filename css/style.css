@@ -1,6 +1,6 @@
 .full-page-panel {
 	text-align:center;
-	
+
 	position:relative;
 	left:0;
 	top:0;
@@ -37,7 +37,7 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 100px;
+	bottom: 80px;
 }
 .btn-next-panel a{
 	background-image: url(../img/btn-next-panel.png);
@@ -60,9 +60,19 @@
 	height: 100%;
 }
 
+.logo{
+	padding-top: 50px;
+}
+
+.logo-bottom{
+	margin-top: 10px;
+}
+
 #panel1 h1{
 	font-family: gotham-htf;
 	color: white;
+
+	margin-top: 100px;
 }
 
 #panel1 h1 span{
@@ -70,6 +80,9 @@
 }
 
 .btn-contact{
+	margin-top: 100px;
+}
+.btn-contact a{
 	color: #617101;
 	font-family: gotham-htf;
 	font-size: 2em;
@@ -78,7 +91,7 @@
 
 	background-image: url(../img/btn-contact.png);
 }
-.btn-contact:hover{
+.btn-contact a:hover{
 	text-decoration: none;
 	color: #617101;
 }
