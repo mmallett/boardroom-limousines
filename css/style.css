@@ -37,7 +37,7 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 80px;
+	bottom: 20px;
 }
 .btn-next-panel a{
 	background-image: url(../img/btn-next-panel.png);
@@ -98,6 +98,14 @@
 
 /*//////////////////////////////////////////////////
  PANEL 2
+*/
+
+#panel2 img{
+	margin-top: 50px;
+}
+
+/*//////////////////////////////////////////////////
+ PANEL 3
 */
 
 #panel3{
