@@ -44,6 +44,14 @@
 	padding: 10px 13px;
 }
 
+/*
+ default height for spacers
+ keeps page from breaking on noscript
+*/
+#spacer1,#spacer2,#spacer3,#spacer4{
+	height:50px;
+}
+
 /*///////////////////////////////////////////////////
  PANEL 1
 */

@@ -16,11 +16,21 @@ $(document).ready(function(){
 
 });
 
-// $(document).resize(function(){
+$(window).resize(function(){
 
-// 	$(".full-page-panel").height($(window).height());
+	$(".full-page-panel").height($(window).height());
 
-// });
+	// call helper functions to vertically align content
+	// in each panel
+	setSpacerDiv1();
+
+	setSpacerDiv2();
+
+	setSpacerDiv3();
+
+	setSpacerDiv4();
+
+});
 
 /*
  calculating the height of each panel's spacer
