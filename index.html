@@ -25,6 +25,8 @@
 	<div id="panel1" class="full-page-panel">
 	<div class="panel1-shading">
 
+		<div id="spacer1"></div>
+
 		<div class="logo">
 			<img src="img/logo.png">
 		</div>
@@ -50,6 +52,8 @@
 
 	<div id="panel2" class="full-page-panel">
 
+		<div id="spacer2"></div>
+
 		<img class="content-img" src="img/panel2.png"></img>
 
 		<!-- <div class="panel2-text">
@@ -69,6 +73,8 @@
 
 	<div id="panel3" class="full-page-panel">
 
+		<div id="spacer3"></div>
+
 		<img class="content-img" src="img/panel3.png"></img>
 
 		<div class="btn-next-panel">
@@ -81,12 +87,14 @@
 
 	<div id="panel4" class="full-page-panel">
 
+		<div id="spacer4"></div>
+
 		<h2>For exceptional rates and options,</h2>
 
 		<p>please fill out the form below or contact us at <span>914-424-0399</span></p>
 
-		<div>
-			<form>
+		<div id="contact-div">
+			<form action="handle_form.php" method="post">
 
 				<div>
 					<span>NAME</span>
@@ -95,12 +103,12 @@
 
 				<div>
 					<span>EMAIL</span>
-					<input type="email" name="email"></input>
+					<input type="text" name="email"></input>
 				</div>
 
 				<div>
 					<span>PHONE</span>
-					<input type="tel" name="phone"></input>
+					<input type="text" name="phone"></input>
 				</div>
 
 				<button type="submit">send</button>

@@ -60,9 +60,9 @@
 	height: 100%;
 }
 
-.logo{
+/*.logo{
 	padding-top: 50px;
-}
+}*/
 
 .logo-bottom{
 	margin-top: 10px;
@@ -100,9 +100,9 @@
  PANEL 2
 */
 
-#panel2 .content-img{
+/*#panel2 .content-img{
 	margin-top: 50px;
-}
+}*/
 
 /*//////////////////////////////////////////////////
  PANEL 3
@@ -113,9 +113,9 @@
 	background-size: cover;
 }
 
-#panel3 .content-img{
+/*#panel3 .content-img{
 	margin-top: 50px;
-}	
+}	*/
 
 /*//////////////////////////////////////////////////
  PANEL 4
@@ -125,6 +125,7 @@
 	font-family: gotham-htf;
 	color: #585858;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 #panel4 > p{
@@ -137,11 +138,12 @@
 	font-weight: bold;
 }
 
-#panel4 > div{
+#contact-div{
 	border: 1px #cccccc solid;
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 80px;
 	padding: 30px 0px;
 }
 
