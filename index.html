@@ -94,24 +94,26 @@
 		<p>please fill out the form below or contact us at <span>914-424-0399</span></p>
 
 		<div id="contact-div">
-			<form action="handle_form.php" method="post">
+			<form>
 
 				<div>
 					<span>NAME</span>
-					<input type="text" name="name"></input>
+					<input id="input-name" type="text" name="name"></input>
 				</div>
 
 				<div>
 					<span>EMAIL</span>
-					<input type="text" name="email"></input>
+					<input id="input-email" type="text" name="email"></input>
 				</div>
 
 				<div>
 					<span>PHONE</span>
-					<input type="text" name="phone"></input>
+					<input id="input-phone" type="text" name="phone"></input>
 				</div>
 
-				<button type="submit">send</button>
+				<div id="messagebox" display="none"><img src="img/spinner.gif"></img> Working...</div>
+
+				<button type="button">send</button>
 
 			</form>
 		</div>
@@ -124,6 +126,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/style.js"></script>
+    <script src="js/submitform.js"></script>
 </body>
 
 </html>

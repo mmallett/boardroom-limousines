@@ -201,4 +201,20 @@
 	font-size: 1.3em;
 }
 
+#messagebox{
+	display: none;
+
+	text-align: center !important;
+	font-family: gotham-htf;
+	font-size: 1.4em;
+}
+
+#messagebox img{
+	width: 30px;
+}
+
+#messagebox.error{
+	color: red;
+}
+
 
